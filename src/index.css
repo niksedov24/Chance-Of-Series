@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom, #ffffff, #e0f2f7, #add8e6);
+  overflow: hidden;
+  min-height: 100vh;
+  z-index: 200;
+}
+.series-card {
+  text-align: center;
+}
+.series-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Lato", sans-serif;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+a:hover {
+  color: #1677ff;
+}

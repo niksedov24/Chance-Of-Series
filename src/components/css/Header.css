@@ -1,0 +1,19 @@
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  padding: 3.125rem;
+  font-size: 1rem;
+}
+
+.headerStyle {
+  width: 100%;
+  text-align: center;
+  height: 60;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px solid #e0e0e0;
+}

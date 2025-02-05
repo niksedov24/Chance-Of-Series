@@ -1,0 +1,17 @@
+.cover__img {
+  object-fit: cover;
+  filter: brightness(0.2);
+  position: relative;
+  height: 16rem;
+  border-radius: 1rem;
+}
+
+.cover-slider__question-mark {
+  position: absolute;
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 7rem;
+  pointer-events: none;
+}
